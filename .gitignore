@@ -1,0 +1,24 @@
+# secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# local data
+data/
+*.db
+validation_results/
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# os / editor
+.DS_Store
+.idea/
+.vscode/
